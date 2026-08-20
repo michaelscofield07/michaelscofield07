@@ -1,80 +1,39 @@
+# Vimal Raj M
+
 <p align="center">
-  <img src="./assets/profile-animated.svg" width="900">
+  <img src="./vimal-matrix-profile.svg" width="1000" alt="Vimal Raj M animated profile banner">
 </p>
 
+## 👨‍💻 About Me
 
-```
-███╗   ███╗██╗   ██╗██████╗ 
-████╗ ████║██║   ██║██╔══██╗
-██╔████╔██║██║   ██║██████╔╝
-██║╚██╔╝██║╚██╗ ██╔╝██╔══██╗
-██║ ╚═╝ ██║ ╚████╔╝ ██║  ██║
-╚═╝     ╚═╝  ╚═══╝  ╚═╝  ╚═╝
-```
+- 🎓 Third-year CSE student at Sri Shakthi Institute of Engineering & Technology
+- 🛡️ Specialisation: Cybersecurity
+- 📍 Coimbatore, Tamil Nadu 🇮🇳
+- 💻 Interested in cybersecurity, software development and problem solving
 
----
+## 🧰 Tech Stack
 
-```zsh
-mvr@github:~$ whoami
-```
-```
-→  Third-year CSE student @ Sri Shakthi Institute of Engineering & Technology
-→  Specialisation : Cybersecurity
-→  Location       : Coimbatore, Tamil Nadu 🇮🇳
-```
+| Technology | Focus |
+|---|---|
+| Python | Programming & security |
+| Java | Application development |
+| SQL | Databases |
+| Flutter / Dart | Mobile development |
 
----
+## 🚀 Projects
 
-```zsh
-mvr@github:~$ cat skills.json
-```
+- **BLE-SOS-Mesh-App** — Flutter BLE emergency alert / offline mesh
+- **Decentralized-Vote** — Blockchain-based tamper-proof voting dApp
+- **Pwd-Checker** — Password strength analyser
+- **Leetcode** — DSA practice
 
-```
-Python       ████████████████████░░░░░  75%
-Java         ████████████████░░░░░░░░░  60%
-Flutter/Dart ████████████████░░░░░░░░░  65%
-SQL          ██████████████░░░░░░░░░░░  55%
-MongoDB      █████████████░░░░░░░░░░░░  50%
-```
+## 📚 Currently Learning
+
+- DSA — campus placement preparation
+- System Design
+
+## 🔗 Connect
+
+[LinkedIn](www.linkedin.com/in/vimal-raj-m-63a65a318) · [LeetCode](https://leetcode.com/u/yL8BQyJLV6/)
 
 ---
-
-```zsh
-mvr@github:~$ ls -la ./projects
-```
-
-```
-drwxr-xr-x  BLE-SOS-Mesh-App       →  Flutter BLE emergency alert / offline mesh
-drwxr-xr-x  Decentralized-Vote     →  Blockchain-based tamper-proof voting dApp
-drwxr-xr-x  Pwd-Checker            →  Password strength analyser
-drwxr-xr-x  Leetcode               →  Pain. Documented.
-```
-
----
-
-```zsh
-mvr@github:~$ cat /etc/currently_learning
-```
-
-```
-[ ACTIVE ]   DSA — campus placement grind
-[ QUEUED ]   System Design
-[ QUEUED ]   How to explain my job to relatives
-```
-
----
-
-```zsh
-mvr@github:~$ contact --all
-```
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](www.linkedin.com/in/vimal-raj-m-63a65a318)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/yL8BQyJLV6/)
- 
----
-
-```zsh
-mvr@github:~$ █
-```
-
-![Profile views](https://komarev.com/ghpvc/?username=michaelscofield07&color=4ade80&style=flat-square&label=visitors)
