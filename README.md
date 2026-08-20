@@ -1,7 +1,7 @@
 # Vimal Raj M
 
 <p align="center">
-  <img src="./vimal-matrix-profile.svg" width="1000" alt="Vimal Raj M animated profile banner">
+  <img src="assets/vimal-matrix-profile.svg" width="1000" alt="Vimal Raj M animated profile banner">
 </p>
 
 ## 👨‍💻 About Me
