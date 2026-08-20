@@ -26,55 +26,121 @@
 <circle cx="83" cy="41" r="5" fill="#27c93f"/>
 <text x="105" y="46" class="mono dim" font-size="13">mvr@github:~</text>
 
-<!-- Falling binary: individually positioned columns, runs for 5 sec then freezes -->
+<!-- Falling binary: continuous streams implemented by staggering duplicate groups -->
 <g class="mono green" font-size="17" filter="url(#glow)" opacity=".78">
+  <!-- Column 1: primary -->
   <g>
     <text x="70" y="-20">0</text><text x="70" y="-65">1</text><text x="70" y="-110">1</text><text x="70" y="-155">0</text><text x="70" y="-200">1</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 330" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 330" dur="5s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <!-- Column 1: staggered duplicate starts halfway through to make flow continuous -->
+  <g>
+    <text x="70" y="-20">0</text><text x="70" y="-65">1</text><text x="70" y="-110">1</text><text x="70" y="-155">0</text><text x="70" y="-200">1</text>
+    <animateTransform attributeName="transform" type="translate" from="0 -330" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 2 -->
+  <g>
+    <text x="145" y="-90">1</text><text x="145" y="-135">0</text><text x="145" y="-180">1</text><text x="145" y="-225">0</text><text x="145" y="-270">0</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 380" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="145" y="-90">1</text><text x="145" y="-135">0</text><text x="145" y="-180">1</text><text x="145" y="-225">0</text><text x="145" y="-270">0</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 380" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -380" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 3 -->
+  <g>
+    <text x="220" y="-40">0</text><text x="220" y="-85">1</text><text x="220" y="-130">0</text><text x="220" y="-175">1</text><text x="220" y="-220">1</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 350" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="220" y="-40">0</text><text x="220" y="-85">1</text><text x="220" y="-130">0</text><text x="220" y="-175">1</text><text x="220" y="-220">1</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 350" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -350" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 4 -->
+  <g>
+    <text x="305" y="-140">1</text><text x="305" y="-185">1</text><text x="305" y="-230">0</text><text x="305" y="-275">1</text><text x="305" y="-320">0</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 390" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="305" y="-140">1</text><text x="305" y="-185">1</text><text x="305" y="-230">0</text><text x="305" y="-275">1</text><text x="305" y="-320">0</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 390" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -390" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 5 -->
+  <g>
+    <text x="390" y="-15">1</text><text x="390" y="-60">0</text><text x="390" y="-105">1</text><text x="390" y="-150">1</text><text x="390" y="-195">0</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 315" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="390" y="-15">1</text><text x="390" y="-60">0</text><text x="390" y="-105">1</text><text x="390" y="-150">1</text><text x="390" y="-195">0</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 315" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -315" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 6 -->
+  <g>
+    <text x="475" y="-105">0</text><text x="475" y="-150">1</text><text x="475" y="-195">1</text><text x="475" y="-240">0</text><text x="475" y="-285">1</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 365" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="475" y="-105">0</text><text x="475" y="-150">1</text><text x="475" y="-195">1</text><text x="475" y="-240">0</text><text x="475" y="-285">1</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 365" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -365" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 7 -->
+  <g>
+    <text x="560" y="-50">1</text><text x="560" y="-95">0</text><text x="560" y="-140">0</text><text x="560" y="-185">1</text><text x="560" y="-230">0</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 340" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="560" y="-50">1</text><text x="560" y="-95">0</text><text x="560" y="-140">0</text><text x="560" y="-185">1</text><text x="560" y="-230">0</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 340" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -340" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 8 -->
+  <g>
+    <text x="645" y="-155">0</text><text x="645" y="-200">1</text><text x="645" y="-245">0</text><text x="645" y="-290">1</text><text x="645" y="-335">1</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 405" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="645" y="-155">0</text><text x="645" y="-200">1</text><text x="645" y="-245">0</text><text x="645" y="-290">1</text><text x="645" y="-335">1</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 405" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -405" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 9 -->
+  <g>
+    <text x="730" y="-25">1</text><text x="730" y="-70">1</text><text x="730" y="-115">0</text><text x="730" y="-160">1</text><text x="730" y="-205">0</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 325" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="730" y="-25">1</text><text x="730" y="-70">1</text><text x="730" y="-115">0</text><text x="730" y="-160">1</text><text x="730" y="-205">0</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 325" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -325" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 10 -->
+  <g>
+    <text x="815" y="-115">0</text><text x="815" y="-160">1</text><text x="815" y="-205">1</text><text x="815" y="-250">0</text><text x="815" y="-295">1</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 375" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="815" y="-115">0</text><text x="815" y="-160">1</text><text x="815" y="-205">1</text><text x="815" y="-250">0</text><text x="815" y="-295">1</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 375" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -375" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Column 11 -->
+  <g>
+    <text x="900" y="-45">1</text><text x="900" y="-90">0</text><text x="900" y="-135">1</text><text x="900" y="-180">0</text><text x="900" y="-225">1</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 345" dur="5s" begin="0s" repeatCount="indefinite"/>
   </g>
   <g>
     <text x="900" y="-45">1</text><text x="900" y="-90">0</text><text x="900" y="-135">1</text><text x="900" y="-180">0</text><text x="900" y="-225">1</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 345" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -345" to="0 0" dur="5s" begin="2.5s" repeatCount="indefinite"/>
   </g>
 </g>
 
-<!-- dark overlay gradually clears after binary intro -->
+<!-- dark overlay gradually clears after binary intro (kept repeating) -->
 <rect x="35" y="72" width="930" height="405" rx="12" fill="#000" opacity=".93">
   <animate attributeName="opacity" values=".93;.93;.93;0" keyTimes="0;.45;.55;1" dur="5s" repeatCount="indefinite"/>
 </rect>
