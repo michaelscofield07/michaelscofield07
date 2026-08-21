@@ -1,6 +1,6 @@
 # Vimal Raj M
 
-[![]([https://mvr-profile.vercel.app](https://card-gold-beta.vercel.app/))](https://github.com/michaelscofield07)
+[![](https://card-gold-beta.vercel.app)](https://github.com/michaelscofield07)
 
 ## 👨‍💻 About Me
 
