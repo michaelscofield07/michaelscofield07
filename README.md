@@ -1,6 +1,8 @@
 # Vimal Raj M
 
-[![](https://card-gold-beta.vercel.app)](https://github.com/michaelscofield07)
+<p align="center">
+  <img src="assets/profile(1).svg" width="1000" alt="Vimal Raj M animated profile banner">
+</p>
 
 ## 👨‍💻 About Me
 
